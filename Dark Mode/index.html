@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpiada NEWS - Agora com modo escuro!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+        function changeMode() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+      </script> 
+</head>
+
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">Olimpiada NEWS</label>
+    <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Notícias em destaque</a></li>
+        <li><a href="#">Saiba mais</a></li>
+        <li><a href="#">Conheça-nos</a></li>
+
+        <div id="container">
+            <h1>Modo Escuro</h1>
+            <label class="switch">
+              <input type="checkbox" onclick="changeMode()">
+              <span class="slider"></span>
+            </label>
+    </ul>
+</nav>
+<body>
+      <article>
+        <figure>
+        <picture>
+            <source srcset="ginastica_ouro.jpg" media="(max-width: 480px)" />
+            <source srcset="ginastica_ouro.jpg" media="(max-width: 640px)" />
+            <source srcset="ginastica_ouro.jpg" media="(min-width: 640px)" />
+            <img src="ginastica_ouro.jpg"
+            alt="Foto de Rebeca Andrade segurando a medalha de ouro." />
+        </picture>
+        <figcaption>Rebeca Andrade é ouro nas Olimpíadas - Foto: Ricardo Bufolin/Panamerica Press/CBG</figcaption>
+        </figure>
+        <h2>Rebeca salta para a história</h2>
+        <p>
+        Depois da prata no individual geral, volta a subir no pódio e conquista sau segunda medalha nos jogos. Rebeca
+        é a primeira brasileira a ganhar duas medalhas em uma edição nos jogos.
+        </p>
+    </article>
+
+    <article>
+        <figure>
+        <picture>
+            <source srcset="natacao2.jpg" media="(max-width: 400px)" />
+            <source srcset="natacao2.jpg" media="(max-width: 640px)" />
+            <source srcset="natacao2.jpg" media="(min-width: 640px)" />
+            <img src="natacao2.jpg" alt="Foto de Bruno Fratus comemora bronze">
+        </picture>
+        <figcaption>Bruno Fratus comemora bronze - Foto: REUTERS/Marko Djurica</figcaption>
+        </figure>
+        <h2>Enfim, medalhista olímpico!</h2>
+        <p>
+        Fratus faz história, conquista o bronze e dá ao país 4º medalha na história dos 50m livre nas Olimpíadas.
+        </p>
+    </article>
+
+    <article>
+        <figure>
+        <picture>
+            <source srcset="tenis.jpg" media="(max-width: 400px)" />
+            <source srcset="tenis.jpg" media="(max-width: 640px)" />
+            <source srcset="tenis.jpg" media="(min-width: 640px)" />
+            <img src="tenis.jpg" alt="Luisa Stefani e Laura Pigossi comemorando a vitória">
+        </picture>
+        <figcaption>Luisa Stefani e Laura Pigossi - Foto: REUTERS</figcaption>
+        </figure>
+        <h2>Bronze como ouro</h2>
+        <p>
+        Após semana intensa nas Olimpíadas de Tóquio 2020, dupla brasileira comemora medala olímpica inédita: "não
+        consigo acreditar ainda no que a gente conseguiu".
+        </p>
+    </article>
+
+    <article>
+        <figure>
+        <picture>
+            <source srcset=".ginastica_prata.jpg" media="(max-width: 400px)" />
+            <source srcset="ginastica_prata.jpg" media="(max-width: 640px)" />
+            <source srcset="ginastica_prata.jpg" media="(min-width: 640px)" />
+            <img src="ginastica_prata.jpg"
+            alt="Foto de Rebeca Andrade segurando a medalha de prata">
+        </picture>
+        <figcaption>Rebeca Andrade é prata nas Olimpíadas - Foto: Ricardo Bufolin/CBG</figcaption>
+        </figure>
+        <h2>Pode vir mais por aí</h2>
+        <p>
+        Depois de conquistar a prata no individual geral, Rebeca Andrade volta a competir em busca da segunda conquista nas
+        Olimpíadas de Tóquio.
+        </p>
+    </article>
+
+    <article>
+        <figure>
+        <picture>
+            <source srcset="judo.jpg" media="(max-width: 400px)" />
+            <source srcset="judo.jpg" media="(max-width: 640px)" />
+            <source srcset="judo.jpg" media="(min-width: 640px)" />
+            <img src="judo.jpg" alt="Foto de Mayra Aguiar segurando medalha de bronze">
+        </picture>
+        <figcaption>Mayra Aguiar com a medalha de bronze - Foto: REUTERS/Sérgio Perez</figcaption>
+        </figure>
+        <h2>É bronze!</h2>
+        <p>
+        Brasieira vence sul-coreana Hyunji Yoon por ippon com imobilização e conquista terceira medalha olímpica da
+        carreira.
+        </p>
+    </article>
+
+    <article>
+        <figure>
+        <picture>
+            <source srcset="surf.jpg" media="(max-width: 400px)" />
+            <source srcset="surf.jpg" media="(max-width: 640px)" />
+            <source srcset="surf.jpg" media="(min-width: 640px)" />
+            <img src="surf.jpg"
+            alt="Foto de Ítalo Ferreira segurando a prancha de Surf e comemorando">
+        </picture>
+        <figcaption>Ítalo Ferreira - Foto: REUTERS/Lisi Niesner</figcaption>
+        </figure>
+        <h2>Entrou para a história</h2>
+        <p>
+        O feito histórico de Ítalo Ferreira, ao conquistar a primeira medalha de ouro do surfe das olimpíadas, trouxe
+        grandes nomes da modalidade a repercutirem esse marco.
+        </p>
+    </article>
+
+
+
+    <article>
+        <figure>
+        <picture>
+            <source srcset="natacao1.jpg" media="(max-width: 400px)" />
+            <source srcset="natacao1.jpg" media="(max-width: 640px)" />
+            <source srcset="natacao1.jpg" media="(min-width: 640px)" />
+            <img src="natacao1.jpg" alt="Foto de Fernando comemorando medalha de bronze nos 200 metros livres">
+    </picture>
+    <figcaption>Fernando Scheffer comemora medalha de bronze nos 200m livres - Foto: Satiro Sodré/SSPress/CBDA</figcaption>
+    </figure>
+    <h2>Parece que estou sonhando</h2>
+    <p>
+        Scheffer se surpreende nos 200m livre e coloca o país no pódio em prova que Gustavo Borges fez história em
+        Atlanta-1996 em 14º medalha olímpica para o país na modalidade.
+    </p>
+    </article>
+
+
+    <article>
+        <figure>
+        <picture>
+            <source srcset="skate.jpg" media="(max-width: 400px)" />
+            <source srcset="skate.jpg" media="(max-width: 640px)" />
+            <source srcset="skate.jpg" media="(min-width: 640px)" />
+            <img src="skate.jpg" alt="Foto de Rayssa Leal fazendo uma manobra">
+        </picture>
+        <figcaption>Rayssa Leal faz manobra na final - Foto: Ezra Shaw/Getty Images</figcaption>
+        </figure>
+    <h2>A fadinha encantou</h2>
+    <p>
+        Rayssa Leal faz história e é prata no skate street nas olimpíadas de Tóquio. Maranhense de 13 anos faz grande
+        prova e é superada apenas por japonesa.
+    </p>
+    </article>
+    </div>
+</body>
+
+  <footer>
+    <p>
+        Tokyo 2020 - &copy; rights reserved.
+    </p>
+</footer>
+</html>
